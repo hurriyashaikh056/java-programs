@@ -1,0 +1,27 @@
+import java.util.Scanner
+public class Guess{
+    int guess=0;
+    int correct_guess=220;
+
+    while(guess!= correct_guess){
+        Scanner sc=new Scanner(system.in);
+        system.out.println("guess the number:");
+    
+        guess=sc.nextInt();
+        if(guess>correct_guess){
+            system.out.print("number is too high");
+        }
+        else if(guess<correct_guess){
+            system.out.print("number is too low");
+        }
+
+        else{
+            system.out.print("you have sucessfully guess the number")
+        }
+        system.out.println("guess has end");
+
+    sc.close();
+
+    }
+
+}
